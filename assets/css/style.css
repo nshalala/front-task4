@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    width: 1180px;
+    margin: auto;
+}
+/* header css start */
+
+header nav{
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a.logo {
+    display: inline-block;
+    font: normal 400 21px 'Dela Gothic One', cursive;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding-right: 30px;
+    border-right: 1.2px solid #E0E0E0;
+}
+nav .left ul,
+nav .left ul li {
+    display: inline-block;
+}
+nav .left ul li a {
+    padding-left: 30px;
+    font: normal 600 16px 'Montserrat', sans-serif;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+nav .left ul li a.active,
+nav .left ul li a:hover {
+    color: #000;
+}
+nav .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal 700 16px 'Montserrat', sans-serif;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+nav .right a,
+nav .right i{
+    color: #000;
+}
+nav .right .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #757575;
+}
+nav .right .profile span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 14px;
+    gap: 14px;
+    width: 41px;
+    height: 40px;
+    background-color: #C3DCE3;
+    border-radius: 100px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #2B788B;
+}
+/* header nav css end */
+
+/* section css start */
+section {
+    padding: 94.61px;
+    position: relative;
+}
+section .left .texts {
+    max-width: 531px;
+    font: normal 700 16px 'Montserrat', sans-serif;
+}
+section .left .texts span{
+    line-height: 100%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #2B788B;
+}
+section .left .texts h1 {
+    font: normal 400 56px 'Dela Gothic One', cursive;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 24px 0 30px;
+}
+section .left .texts p {
+    font: normal 600 18px 'Montserrat', sans-serif;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+section .left .texts a {
+    padding: 14px 22px;
+    gap: 19px;
+    width: 165px;
+    height: 44px;
+    background-color: #C3DCE3;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    margin: 32px 0 49px;
+}
+section .left .stats {
+    display: flex;
+    gap: 49px;
+}
+section .left .stats h2 {
+    font: normal 400 40px 'Dela Gothic One', cursive;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+section .left .stats i {
+    color: #2B788B;
+}
+section .left .stats-left {
+    height: 49px;
+    border-right: 1.2px solid #E0E0E0;
+    padding-right: 49px;
+}
+section .left .stats span{
+    font: normal 600 16px 'Montserrat', sans-serif;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+}
+section .section-img {
+    position: absolute;
+    width: 770px;
+    height: 601px;
+    left: 869.95px;
+    top: 105px;
+}
+/* section css end */
